@@ -1,0 +1,36 @@
+.app {
+	width: 60%;
+	margin: 100px auto;
+	box-shadow: 0 3px 4px rgba(157, 78, 78, 0.1);
+	padding: 10px;
+	border-radius: 3px;
+	display: flex;
+	gap: 40px;
+
+	ul {
+		background-color: rgba(165, 49, 49, 0.05);
+		padding: 7px;
+		border-radius: 4px;
+		flex: 1;
+
+		h1 {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+
+		li {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 7px 12px;
+			margin-bottom: 5px;
+			border-radius: 4px;
+			cursor: pointer;
+
+			&:hover {
+				background-color: rgba(0, 0, 0, 0.05);
+			}
+		}
+	}
+}
